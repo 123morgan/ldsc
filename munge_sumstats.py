@@ -580,7 +580,7 @@ def munge_sumstats(args, p=True):
 
             cname_map[frq_u] = 'FRQ'
 
-	if args.daner_n:
+	if args.daner:
 	    frq_u = filter(lambda x: x.startswith('FRQ_U_'), file_cnames)[0]
 	    cname_map[frq_u] = 'FRQ'
 	    try:
